@@ -1,0 +1,7 @@
+.secao1 {
+    display: flex;
+    justify-content: center;  
+}
+.aba1{
+    background-color: bisque;
+}

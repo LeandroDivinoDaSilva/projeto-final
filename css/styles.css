@@ -1,0 +1,17 @@
+@import "./components/quadrados.css";
+@import "./components/navbar.css";
+@import "./components/reset.css";
+@import "./components/slide.css";
+
+.espaco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 227, 227);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+.espaco h1{
+    color: rgb(57, 231, 173);
+}
