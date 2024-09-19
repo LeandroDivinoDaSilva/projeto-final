@@ -1,7 +1,50 @@
-.secao1 {
+.secao {
     display: flex;
     justify-content: center;  
 }
-.aba1{
-    background-color: bisque;
+
+.aba {
+    background-color: rgb(196, 190, 190);
+    margin: 120PX;
+    width: 500px;
+    height: 900px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  
+}
+
+.aba>h1 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.aba>p {
+    font-size: 23px;
+    padding: 20px 20px;
+}
+
+.btnq {
+    font-size: 20px;
+    padding: 10px 50px;
+    border: none;
+    background-color: rgba(131, 100, 100, 0.932);
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.btnq:hover {
+    transition: 0.5s background;
+    background-color: rgb(187, 50, 50);
+}
+
+.aba>img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }

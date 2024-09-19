@@ -3,6 +3,10 @@
 @import "./components/reset.css";
 @import "./components/slide.css";
 
+*{
+    font-family: "Poppins", sans-serif;
+}
+
 .espaco{
     display: flex;
     justify-content: center;
