@@ -7,7 +7,7 @@
     background-color: rgb(196, 190, 190);
     margin: 120PX;
     width: 500px;
-    height: 900px;
+    height: auto;
     border-radius: 10px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     text-align: center;
