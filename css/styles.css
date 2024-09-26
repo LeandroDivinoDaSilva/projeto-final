@@ -1,7 +1,8 @@
-@import "./components/quadrados.css";
+@import "./components/card.css";
 @import "./components/navbar.css";
 @import "./components/reset.css";
 @import "./components/slide.css";
+@import "./components/responsive.css";
 
 *{
     font-family: "Poppins", sans-serif;
@@ -19,34 +20,3 @@
 .espaco h1{
     color: rgb(57, 231, 173);
 }
-
-/* Estilos responsivos */
-@media (max-width: 1280px) and (max-width: 768px){
-    nav ul {
-      flex-direction: column; /* Muda a disposição do menu */
-      align-items: center; /* Centraliza os itens do menu */
-      padding: 0; /* Remove padding */
-    }
-  
-    nav ul li {
-      display: block; /* Exibe cada item em uma nova linha */
-      margin: 10px 0; /* Margem vertical entre os itens */
-    }
-  
-    .secao {
-      flex-direction: column; /* Alinha as abas em coluna */
-      align-items: center; /* Centraliza as abas */
-      width: 500px;
-      height: 900px;
-    }
-  
-    .aba {
-      flex: 1 1 80%; /* Aumenta a largura das abas em telas menores */
-      margin: 10px 0; /* Margem vertical entre as abas */
-    }
-  
-    .carousel-inner img {
-      max-height: 300px; /* Ajusta a altura da imagem do carousel */
-    }
-  }
-  

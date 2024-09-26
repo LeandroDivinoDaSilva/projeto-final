@@ -1,0 +1,35 @@
+@media (min-width: 1920px) and (max-width: 2560px) {
+    /* Adicione aqui os estilos para 1920x1080 */
+    .aba>p {
+        font-size: 24px;
+    }        
+    .aba {
+        background-color: rgb(196, 190, 190);
+        margin: 70PX;
+        width: 600px;
+        height: 700px;
+        border-radius: 10px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+      
+    }
+
+}
+
+@media (min-width: 1023px) and (max-width: 768px){
+    .aba {
+        background-color: rgb(196, 190, 190);
+        margin: 50PX;
+        width: 600px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+
+    .aba>p {
+        display: none;
+    }
+}
