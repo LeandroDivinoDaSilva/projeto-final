@@ -20,19 +20,38 @@
     </header>
 
     <main>
-        <h2>Entre em Contato</h2>
-        <form id="contatoForm">
-            <label for="nomeContato">Nome Completo:</label>
-            <input type="text" id="nomeContato" name="nomeContato" required>
-            
-            <label for="emailContato">E-mail:</label>
-            <input type="email" id="emailContato" name="emailContato" required>
-            
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="form-container">
+            <div class="form-content">
+              <h2>Entre em contato conosco</h2>
+              <form id="promo-form">
+                <div class="form-group">
+                  <label for="nome">Nome Completo:</label>
+                  <input type="text" id="nome" name="nome" placeholder="Ex.: João Silva" required />
+                </div>
+                <div class="form-group form-row">
+                  <div class="form-group-half">
+                    <label for="ddd">*DDD</label>
+                    <input type="text" id="ddd" name="ddd" placeholder="*DDD" required />
+                  </div>
+                  <div class="form-group-half">
+                    <label for="celular">Digite seu Celular:</label>
+                    <input type="text" id="celular" name="celular" placeholder="00000-0000" required />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Seu E-mail:</label>
+                  <input type="email" id="email" name="email" placeholder="seuemail@email.com.br" required />
+                </div>    
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <input  type="text" id="mensagem" name="mensagem" required></input>
+                </div>
+                <div class="form-group">
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
     </main>
+    <script src="newFile.js"></script>
 </body>
 </html>

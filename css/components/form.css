@@ -1,24 +1,21 @@
-/* body {
-    display: flex;
-    justify-content: center; 
-    height: 100vh; 
-    margin: 0;
-    background-color: #f4f4f4;  Cor de fundo para destaque */
+
 
   .form-container {
     display: flex;
     background-color: #012a4a;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
-    width: 100%;
+    margin: 150px;
     
   }
   
   .form-content {
+   
     flex: 1;
     padding: 40px;
     color: white;
+
+    
   }
   
   h2 {
@@ -53,7 +50,7 @@
     margin-right: 10px;
   }
   
-  button {
+  .form-group button {
     background-color: #ffaf40;
     color: white;
     border: none;
@@ -64,7 +61,7 @@
     width: 100%;
   }
   
-  button:hover {
+  .form-button:hover {
     background-color: #ff8400;
   }
   

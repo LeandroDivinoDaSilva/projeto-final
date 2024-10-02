@@ -4,6 +4,7 @@
 @import "./components/slide.css";
 @import "./components/responsive.css";
 @import "./components/form.css";
+@import "./components/contacts.css";
 
 *{
     font-family: "Poppins", sans-serif;
