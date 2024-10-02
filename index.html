@@ -112,6 +112,76 @@
       </div>
     </div>
   
+  
+    <div class="form-container">
+      <div class="form-content">
+        <h2>Quer saber mais sobre as Promoções Wizard</h2>
+        <form id="promo-form">
+          <div class="form-group">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex.: João Silva" required />
+          </div>
+          <div class="form-group form-row">
+            <div class="form-group-half">
+              <label for="ddd">*DDD</label>
+              <input type="text" id="ddd" name="ddd" placeholder="*DDD" required />
+            </div>
+            <div class="form-group-half">
+              <label for="celular">Digite seu Celular:</label>
+              <input type="text" id="celular" name="celular" placeholder="00000-0000" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Seu E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@email.com.br" required />
+          </div>
+          <div class="form-group form-row">
+            <div class="form-group-half">
+              <label for="estado">Estado:</label>
+              <select id="estado" name="estado" required>
+                <option value="">Selecione</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+              </select>
+            </div>
+            <div class="form-group-half">
+              <label for="cidade">Cidade:</label>
+              <select id="cidade" name="cidade" required>
+                <option value="">Selecione</option>
+                <option value="">Selecione</option>
+                <option value="">Belo Horizonte</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="unidade">Escolha a Unidade mais Próxima:</label>
+            <select id="unidade" name="unidade" required>
+              <option value="">Selecione uma escola</option>
+              <option value="">Selecione uma escola</option>
+              <option value="">mesquita</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="maior-de-idade" name="maior-de-idade" required />
+            <label for="maior-de-idade">Declaro ter mais de 12 anos.</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="whatsapp" name="whatsapp" />
+            <label for="whatsapp">Concordo em receber e-mails e mensagens através do WhatsApp da Wizard e marcas Pearson.</label>
+          </div>
+          <div class="form-group">
+            <button type="submit">Eu Quero</button>
+          </div>
+        </form>
+      </div>
+      <div class="form-image">
+        <img src="https://via.placeholder.com/500" alt="Imagem lateral ilustrativa" />
+      </div>
+    </div>
+
+
+
     <script src="js/newFile.js"></script>
     <script src="js/calendar.js"></script>
     <script src="js/chatbot.js"></script>

@@ -3,6 +3,7 @@
 @import "./components/reset.css";
 @import "./components/slide.css";
 @import "./components/responsive.css";
+@import "./components/form.css";
 
 *{
     font-family: "Poppins", sans-serif;
