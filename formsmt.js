@@ -43,7 +43,7 @@ const apiUrl ="https://forge.withub.ai/api/triggers/5257a02d-c19b-4969-ab81-2206
 
 // Dados que você quer enviar
 const data = {
-   Email: email
+   Email: "leandrodivinosilva12@gmail.com"
 };
 
 // Fazendo a requisição POST para a API
