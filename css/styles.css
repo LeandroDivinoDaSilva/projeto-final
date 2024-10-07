@@ -5,6 +5,8 @@
 @import "./components/responsive.css";
 @import "./components/form.css";
 @import "./components/sobrenos.css";
+@import "./components/privacidade.css";
+@import "./components/cursosti.css";
 
 *{
     font-family: "Poppins", sans-serif;

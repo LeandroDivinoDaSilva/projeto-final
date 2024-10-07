@@ -38,3 +38,7 @@
 .sobre {
     background: linear-gradient(to bottom, #f9c1cc 40%, #ffffff 40%);
 }
+
+.about-text {
+    margin-top: -250px;
+}
