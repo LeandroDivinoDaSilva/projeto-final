@@ -7,6 +7,7 @@
 @import "./components/sobrenos.css";
 @import "./components/privacidade.css";
 @import "./components/cursosti.css";
+@import "./components/recursoshm.css";
 
 *{
     font-family: "Poppins", sans-serif;
