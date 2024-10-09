@@ -1,0 +1,75 @@
+footer {
+    background-color: #0B3954;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 50px;
+  }
+  
+  .logo-section img {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .links-section {
+    flex: 1;
+  }
+  
+  .links-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .links-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .links-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .links-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Linha horizontal separadora */
+  .horizontal-line {
+    border-top: 1px solid #fff;
+  }
+  
+  .social-media {
+    margin-right: 20px;
+    margin-top: 15px;
+    flex: 0 1 300px;
+    display: flex; /* Alinha o texto e ícones na mesma linha */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: flex-end; /* Mantém os itens à direita */
+    gap: 10px; /* Espaço entre o texto e os ícones */
+  }
+  
+  .social-media p {
+    margin: 0; /* Remove a margem para alinhar com os ícones */
+  }
+  
+  .social-media a img {
+    width: 30px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
