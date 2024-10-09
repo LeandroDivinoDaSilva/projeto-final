@@ -18,11 +18,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(233, 227, 227);
+    background-color: rgb(173, 162, 162);
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 40px;
 }
 .espaco h1{
-    color: rgb(57, 231, 173);
+    color: rgb(0, 0, 0);
 }

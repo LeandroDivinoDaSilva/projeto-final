@@ -1,5 +1,5 @@
 footer {
-    background-color: #0B3954;
+    background-color:  #a83636e5;
     color: white;
     padding: 20px 0;
   }
@@ -67,6 +67,7 @@ footer {
     border-top: 1px solid #444;
     margin-top: 20px;
     font-size: 0.9em;
+    background-color: #444;
   }
   
   .footer-bottom p {
