@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./scripts/lib/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -86,7 +87,11 @@
     <div class="espaco"><h1>CONHEÇA NOSSOS CURSOS</h1></div>
 
     <div class="secao">
-      <div class="aba aba1">
+      <div class="aba aba1"
+      data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+     >
           <img src="imgs/bemestar.png" alt="criança" />
           <h1>CURSO BEM-ESTAR</h1>
           <p>
@@ -98,7 +103,11 @@
           </button>
       </div>
 
-      <div class="aba aba2">
+      <div class="aba aba2"
+      data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+      >
           <img src="imgs/menina.png" alt="menina" />
           <h1>CURSOS DE TECNOLOGIA</h1>
           <p>
@@ -110,7 +119,11 @@
           </button>
       </div>
 
-      <div class="aba aba3">
+      <div class="aba aba3"
+      data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+      >
           <img src="imgs/menina2.png" alt="menino" />
           <h1>Recursos Humanos</h1>
           <p>
@@ -272,5 +285,9 @@
     <script src="./scripts/newFile.js"></script>
     <script src="js/calendar.js"></script>
     <script src="./scripts/lib/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>

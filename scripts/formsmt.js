@@ -58,3 +58,4 @@ document.getElementById('promo-form').addEventListener('submit', function(event)
       alert('Erro ao ativar o bot. Tente novamente.');
   });
 });
+
