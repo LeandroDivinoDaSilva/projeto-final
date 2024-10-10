@@ -1,51 +1,85 @@
-.secao {
-    display: flex;
-    justify-content: center;  
-}
 
-.aba {
-    background-color: #f5df9888;
-    margin: 70PX;
-    width: 600px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-  
-}
+        /* Container principal */
+        .secao {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
 
-.aba>h1 {
-    font-size: 20px;
-    padding-top: 10px;
-}
+        /* Estilos gerais das abas */
+        .aba {
+            background: linear-gradient(135deg, #99d6ed, #6bb7db);
+            width: 300px;
+            height: auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+            text-align: center;
+            color: #333;
+            transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1); /* Transição nas abas */
+            position: relative;
+            overflow: hidden;
+        }
 
-.aba>p {
-    font-size: 26px;
-    padding: 20px 20px;
-}
+        .aba::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            opacity: 0;
+            transition: opacity 0.6s ease;
+            z-index: 1;
+        }
 
-.btnq {
-    font-size: 20px;
-    padding: 10px 50px;
-    margin-bottom: 20px;
-    border: none;
-    background-color: rgba(131, 100, 100, 0.932);
-    color: white;
-    border-radius: 10px;
-    font-weight: 600;
-    transition: 0.5s background;
-    cursor: pointer;
-}
+        .aba h1, .aba p {
+            position: relative;
+            z-index: 2;
+        }
 
-.btnq:hover {
-    transition: 0.5s background;
-    background-color: rgb(187, 50, 50);
-}
+        .aba img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
 
-.aba>img {
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+        /* Animação de hover apenas nas abas */
+        .aba:hover {
+            background: linear-gradient(135deg, #6bb7db, #99d6ed);
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px, rgba(0, 0, 0, 0.15) 0px 6px 20px;
+            transform: translateY(-5px); /* Elevação apenas na aba */
+        }
 
-}
+        .aba:hover::before {
+            opacity: 1; /* Efeito de luz nas abas ao passar o mouse */
+        }
+
+        .aba:hover h1 {
+            color: #005f73;
+        }
+
+        .aba:hover p {  
+            color: #0a9396;
+        }
+
+        /* Botão - sem animação */
+        .btnq {
+            font-size: 16px;
+            padding: 10px 30px;
+            margin-top: 15px;
+            border: none;
+            background-color: rgba(131, 100, 100, 0.932);
+            color: white;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: 0.5s background;
+            cursor: pointer;
+            z-index: 2; /* Assegurar que o botão está acima */
+            position: relative; /* Garantir que o botão não fique atrás do conteúdo */
+        }
+
+        .btnq:hover {
+            background-color: rgb(187, 50, 50); /* Hover estático */
+        }

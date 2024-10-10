@@ -1,10 +1,10 @@
 @media (min-width: 1920px) and (max-width: 2560px) {
     /* Adicione aqui os estilos para 1920x1080 */
     .aba>p {
-        font-size: 24px;
+        font-size: 24px;    
     }        
     .aba {
-        background-color: rgb(196, 190, 190);
+        background-color: #bce1c7;
         margin: 70PX;
         width: 600px;
         height: auto;
