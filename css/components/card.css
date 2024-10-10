@@ -8,7 +8,7 @@
 
         /* Estilos gerais das abas */
         .aba {
-            background: linear-gradient(135deg, #99d6ed, #6bb7db);
+            background: linear-gradient(135deg, #cde9e7, #f1a7a2);
             width: 300px;
             height: auto;
             padding: 20px;
@@ -47,7 +47,7 @@
 
         /* Animação de hover apenas nas abas */
         .aba:hover {
-            background: linear-gradient(135deg, #6bb7db, #99d6ed);
+            background: linear-gradient(135deg, #6a8886, #c56464);
             box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px, rgba(0, 0, 0, 0.15) 0px 6px 20px;
             transform: translateY(-5px); /* Elevação apenas na aba */
         }
@@ -57,11 +57,11 @@
         }
 
         .aba:hover h1 {
-            color: #005f73;
+            color: #000000;
         }
 
         .aba:hover p {  
-            color: #0a9396;
+            color: #030303;
         }
 
         /* Botão - sem animação */

@@ -33,3 +33,14 @@
         display: none;
     }
 }
+
+@media (max-width: 768px) {
+    .secao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aba {
+        max-width: 90%; /* Ajuste para preencher mais a tela em dispositivos menores */
+    }
+}

@@ -18,6 +18,14 @@
     background-color: rgb(237, 225, 203);
 }
 
+.bodycolor{
+  background-color:  rgb(237, 225, 203);
+}
+
+
+
+
+
 .espaco{
     display: flex;
     justify-content: center;
