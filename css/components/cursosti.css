@@ -5,7 +5,7 @@
   }
   
   .cursoti {
-    background-color: white;
+    background-color: rgb(201, 211, 233);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1.5rem;
@@ -15,8 +15,11 @@
     transition: transform 0.2s;
   }
   
-  .cursoti:hover {
-    transform: scale(1.05);
+  .cursoti:hover { 
+    background: linear-gradient(135deg, #92b0c8, #db8e8e);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px, rgba(0, 0, 0, 0.15) 0px 6px 20px;
+    transform: translateY(-5px); 
+    
   }
   
   .cursoti img {
@@ -33,6 +36,10 @@
   .cursoti p {
     color: #666;
     font-size: 0.9rem;
+  }
+  .cursoti:hover p {
+    color: #000000;
+    font-size: 1.3rem;
   }
   
   .cursoti button {
