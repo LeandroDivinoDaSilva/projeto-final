@@ -34,6 +34,7 @@ document.getElementById('promo-form').addEventListener('submit', function(event)
 
   // URL da API (Forge bot)
   const apiUrl = "https://forge.withub.ai/api/triggers/5257a02d-c19b-4969-ab81-2206de86082c/execute/66eebf0187e5fb740b35353c";
+  // const apiUrl = "https://forge.withub.ai/api/triggers/5257a02d-c19b-4969-ab81-2206de86082c/execute/66eebf0187e5fb740b35353c";
 
   // Dados que você quer enviar para o bot
   const data = {
