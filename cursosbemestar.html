@@ -6,6 +6,8 @@
     <title>Cursos de Tecnologia</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="./scripts/lib/bootstrap.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/components/navbar.css">
   </head>
   <body class="bodycolor">
     <header>
@@ -22,7 +24,7 @@
     </header>
 
     <section class="cursosbst">
-      <div class="cursobst">
+      <div class="cursobst" div data-aos="fade-up-right">
         <img src="imgs/costura.png" alt="Informática Avançada" />
         <h2>Corte e Costura</h2>
         <p>
@@ -34,7 +36,7 @@
         </button>
       </div>
 
-      <div class="cursobst">
+      <div class="cursobst" data-aos="fade-up">
         <img src="imgs/Barbeiro.png" alt="Barbeiro" />
         <h2>Barbeiro</h2>
         <p>
@@ -46,7 +48,7 @@
         </button>
       </div>
 
-      <div class="cursobst">
+      <div class="cursobst" data-aos="fade-up-left">
         <img src="imgs/Cabeleileira.jpg" alt="Cabeleireiro" />
         <h2>Cabeleireiro</h2>
         <p>
@@ -104,5 +106,10 @@
         <p>Copyright &copy; 2024 AOPA. Todos os direitos reservados.</p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
+  <script>
+    AOS.init();
+  </script>
+  
 </html>

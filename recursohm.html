@@ -6,6 +6,7 @@
     <title>Cursos de Tecnologia</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="./scripts/lib/bootstrap.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="bodycolor">
     <header>
@@ -22,7 +23,7 @@
     </header>
 
     <section class="cursoshm">
-      <div class="cursohm">
+      <div class="cursohm" data-aos="fade-up-right">
         <img
           src="imgs/AssistenteAdministrativo.jpg"
           alt="Assistente Administrativo"
@@ -37,7 +38,7 @@
         </button>
       </div>
 
-      <div class="cursohm">
+      <div class="cursohm" data-aos="fade-up">
         <img
           src="imgs/Assistente de RecursosHumanos.jpg"
           alt="Assistente de Recursos Humanos"
@@ -51,7 +52,7 @@
         </button>
       </div>
 
-      <div class="cursohm">
+      <div class="cursohm" data-aos="fade-up-left">
         <img src="imgs/Logistica.jpg" alt="Logística" />
         <h2>Logistica</h2>
         <p>
@@ -108,5 +109,10 @@
         <p>Copyright &copy; 2024 AOPA. Todos os direitos reservados.</p>
       </div>
     </footer>
+  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>
