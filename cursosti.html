@@ -23,6 +23,7 @@
       </nav>
     </header>
 
+  <div id="pagina2">
     <section class="cursosti">
       <div class="cursoti" div data-aos="fade-up-right">
         <img src="imgs/Informaticaavancada.jpg" alt="Informática Avançada" />
@@ -31,7 +32,7 @@
           Este curso cobre tópicos avançados de informática, incluindo redes,
           segurança cibernética e gerenciamento de servidores.
         </p>
-        <button onclick="window.location.href='formulario.html'">
+        <button class="btn-ti" id="avancada">
           Inscreva-se
         </button>
       </div>
@@ -43,7 +44,7 @@
           Aprenda os fundamentos da informática, desde o uso básico de
           computadores até o software mais comum.
         </p>
-        <button onclick="window.location.href='formulario.html'">
+        <button class="btn-ti" id="basica">
           Inscreva-se
         </button>
       </div>
@@ -55,11 +56,12 @@
           Descubra como desenvolver aplicações de forma rápida e eficiente
           usando plataformas low-code.
         </p>
-        <button onclick="window.location.href='formulario.html'">
+        <button class="btn-ti" id="low">
           Inscreva-se
         </button>
       </div>
     </section>
+  </div>
 
     <footer>
       <div class="footer-content">
@@ -107,6 +109,9 @@
     </footer>
   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts/cursosti.js" defer></script> 
+    <script src="./scripts/formsmt.js"></script>
+    <script src="./scripts/newFile.js"></script>
   </body>
   <script>
     AOS.init();

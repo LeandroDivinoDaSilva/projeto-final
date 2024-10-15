@@ -58,3 +58,59 @@
     color: #ff6666;
     margin-bottom: 10px;
 }
+
+.btn-bst-menu  {
+    background-color: #4889b2bc;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-bst-menu:hover {
+    background-color: #0b5684;
+    color: #fff;
+}
+.btn-ti-menu{
+    
+    background-color: #4889b2bc;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-ti-menu:hover{
+
+    background-color: #0b5684;
+    color: #fff;
+}
+
+.btn-rm-menu{
+    background-color: #4889b2bc;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-rm-menu:hover{
+
+    background-color: #0b5684;
+    color: #fff;
+}

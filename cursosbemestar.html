@@ -23,44 +23,46 @@
       </nav>
     </header>
 
-    <section class="cursosbst">
-      <div class="cursobst" div data-aos="fade-up-right">
-        <img src="imgs/costura.png" alt="Informática Avançada" />
-        <h2>Corte e Costura</h2>
-        <p>
-          Este curso cobre tópicos de corte e costura, incluindo técnicas de
-          modelagem, ajustes personalizados e acabamento de peças.
-        </p>
-        <button id="corte-costura-btn">
-          Inscreva-se
-        </button>
-      </div>
-
-      <div class="cursobst" data-aos="fade-up">
-        <img src="imgs/Barbeiro.png" alt="Barbeiro" />
-        <h2>Barbeiro</h2>
-        <p>
-          Este curso cobre tópicos avançados de barbearia, incluindo técnicas
-          modernas de cortes, design de barba e cuidados com a pele masculina.
-        </p>
-        <button id="barbeiro-btn">
-          Inscreva-se
-        </button>
-      </div>
-
-      <div class="cursobst" data-aos="fade-up-left">
-        <img src="imgs/Cabeleileira.jpg" alt="Cabeleireiro" />
-        <h2>Cabeleireiro</h2>
-        <p>
-          Este curso abrange tópicos avançados de cabeleireiro, incluindo
-          técnicas de corte de alta precisão, coloração avançada, tratamentos
-          capilares e penteados para eventos .
-        </p>
-        <button onclick="window.location.href='cabeleleiro.html'">
-          Inscreva-se
-        </button>
-      </div>
-    </section>
+    <div id="pagina">
+      <section class="cursosbst">
+        <div class="cursobst" div data-aos="fade-up-right">
+          <img src="imgs/costura.png" alt="Informática Avançada" />
+          <h2>Corte e Costura</h2>
+          <p>
+            Este curso cobre tópicos de corte e costura, incluindo técnicas de
+            modelagem, ajustes personalizados e acabamento de peças.
+          </p>
+          <button class="btn-bst" id="costura">
+            Inscreva-se
+          </button>
+        </div>
+  
+        <div class="cursobst" data-aos="fade-up">
+          <img src="imgs/Barbeiro.png" alt="Barbeiro" />
+          <h2>Barbeiro</h2>
+          <p>
+            Este curso cobre tópicos avançados de barbearia, incluindo técnicas
+            modernas de cortes, design de barba e cuidados com a pele masculina.
+          </p>
+          <button class="btn-bst" id="barbeiro">
+            Inscreva-se
+          </button>
+        </div>
+  
+        <div class="cursobst" data-aos="fade-up-left">
+          <img src="imgs/Cabeleileira.jpg" alt="Cabeleireiro" />
+          <h2>Cabeleireiro</h2>
+          <p>
+            Este curso abrange tópicos avançados de cabeleireiro, incluindo
+            técnicas de corte de alta precisão, coloração avançada, tratamentos
+            capilares e penteados para eventos .
+          </p>
+          <button class="btn-bst" id="cabeleireiro">
+            Inscreva-se
+          </button>
+        </div>
+      </section>
+    </div>
 
     <footer>
       <div class="footer-content">
@@ -107,7 +109,9 @@
       </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="/scripts/cursos.js"></script>
+    <script src="./scripts/cursos.js" defer></script>
+    <script src="./scripts/formsmt.js"></script>
+    <script src="./scripts/newFile.js"></script>
   </body>
   <script>
     AOS.init();
